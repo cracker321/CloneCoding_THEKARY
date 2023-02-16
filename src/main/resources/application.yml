@@ -1,0 +1,35 @@
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/myblog?serverTimezone=Asia/Seoul
+#    username: root
+#    password: root1234c!
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    defer-datasource-initialization: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        use_sql_comments: true
+#        highlight_sql: true
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  thymeleaf:
+    cache: false
+
+  messages:
+    basename: messages
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+      org.hibernate.SQL: DEBUG
+      org.hibernate.type: trace
+    hibernate: DEBUG
+
