@@ -1,0 +1,14 @@
+
+/*메인 슬라이드*/
+.main_slide .swiper-slide.slide01{background:url(/img/main01.png)no-repeat;background-position: center;background-size: cover;}
+.main_slide .swiper-slide.slide02{background:url(/img/main01.png)no-repeat;background-position: center;background-size: cover;}
+.main_slide .swiper-slide.slide03{background:url(/img/main01.png)no-repeat;background-position: center;background-size: cover;}
+
+/*숫자 카운트*/
+.memberCountCon{float: left;padding: 10px;font-size: 40px;font-weight: 800;/*text-shadow: 1px 6px 2px #ccc;*/}
+
+
+.ctn{overflow: hidden;height: 50px;color: #000 !important;}
+.won{margin-left: 0 !important;float: left;font-size: 20px !important;line-height:50px !important;}
+
+.ctn span{font-size: 20px;line-height: 50px;margin-left: 0 !important;font-weight: 600;color: #000 !important;}

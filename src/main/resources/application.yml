@@ -17,13 +17,7 @@ spring:
   devtools:
     livereload:
       enabled: true
-    restart:
-      enabled: true
-  thymeleaf:
-    cache: false
 
-  messages:
-    basename: messages
 
 logging:
   level:
