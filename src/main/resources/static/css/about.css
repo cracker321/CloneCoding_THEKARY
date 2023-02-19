@@ -1,0 +1,57 @@
+
+.company{border-bottom: 3px solid #000;box-sizing: border-box;}
+
+.sub_cate{padding-left:4%;}
+/*하단 다운로드 버튼*/
+.download{text-align: center;display:inline-block;width: 180px;height: 40px;border: 1px solid #000;box-sizing: border-box;margin-right: 10px;    line-height: 40px;}
+.download:hover{opacity: 0.6;}
+.download a img{width: 14px;margin-left: 3px;}
+/*핵심가치 원형*/
+.circle{/*margin-left:*/ 370px;height:500px;}
+.circle ul{/*min-width: 1500px;*/overflow: hidden;  max-width: 1240px; width: 100%; margin: 0 auto;}
+.circle ul li{float: left;text-align: center;/*width: 20%;padding: 0px 20px;width: 17%;*/ margin-right: 80px;}
+.circle ul li:last-child{margin-right:0;}
+
+
+.circle ul li p{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 115px;
+    box-sizing: border-box;
+    box-shadow: 0 13px 11px 0 rgba(0,0,0,.06);
+    font-size: 20px;
+    font-weight: 600;
+}
+.circle ul li span{display: block;width: 250px;margin-top: 20px;line-height: 25px;color: #666;font-size: 14px;margin: 20px auto;}
+
+
+@media screen and (max-width:1500px){
+    .circle{margin-left: 0;height:auto;}
+    .circle ul{overflow: hidden;min-width:auto;}
+    .circle ul li{padding: 0px 25px 30px;/*width: 240px;*/}
+    .circle ul li.hang{clear:both;}
+    .circle ul li p{height: 240px;padding-top: 115px;}
+}
+
+@media screen and (max-width:1000px){
+    .mis-wrap .mis_bottom p{float: none;}
+    .mis-wrap .mis_bottom span {margin-left: 0;margin-top: 30px;color: #666;font-size: 15px;}
+    .mis-wrap{padding:0 50px;}
+    .history .his_wrap>p{width: 20% !important;}
+    .history ul li p{width: 50px !important;height: 40px;}
+    .sub_cate{padding-left:50px;}
+    .header h1{left: 50px;}
+
+}
+@media screen and (max-width:500px){
+    .history .his_wrap>p{float: none !important;margin-bottom: 20px;}
+    .circle ul{min-width: auto;}
+    .circle ul li{float: none; margin: 0 auto;width: 100%;padding:0;}
+    .circle{height:auto;}
+    .sub_cate{padding-left:0 20px;}
+    .circle ul li:last-child{    margin-right: 80px;}
+    .circle ul li p{height:250px;padding-top: 115px;}
+}
